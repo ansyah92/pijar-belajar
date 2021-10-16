@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User dapat Mengakses Notifikasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca0fd99d-9075-4a10-860b-82c02dbad1b1</testCaseGuid>
+</TestCaseEntity>

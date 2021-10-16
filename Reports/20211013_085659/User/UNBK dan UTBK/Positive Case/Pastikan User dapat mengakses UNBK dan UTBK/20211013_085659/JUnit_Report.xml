@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pastikan User dapat mengakses UNBK dan UTBK" time="29.967" tests="2" failures="0" errors="0">
+   <testsuite name="Pastikan User dapat mengakses UNBK dan UTBK" tests="2" failures="0" errors="0" time="29.967" skipped="0" timestamp="2021-10-13 08:57:03" hostname="ardiansyah - manjaro" id="Test Suites/User/UNBK dan UTBK/Positive Case/Pastikan User dapat mengakses UNBK dan UTBK">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ardiansyah/Work/Telkom/Pijar Belajar/Katalon/Pijar-Belajar/Pijar Belajar/Reports/20211013_085659/User/UNBK dan UTBK/Positive Case/Pastikan User dapat mengakses UNBK dan UTBK/20211013_085659"/>
+         <property name="logFiles" value="/home/ardiansyah/Work/Telkom/Pijar Belajar/Katalon/Pijar-Belajar/Pijar Belajar/Reports/20211013_085659/User/UNBK dan UTBK/Positive Case/Pastikan User dapat mengakses UNBK dan UTBK/20211013_085659/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ardiansyah - manjaro"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="192.168.100.9"/>
+         <property name="sessionId" value="682b6fe6cbd3f53bba55e4888de9793b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login" time="11.58" classname="Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login" status="PASSED">
+         <system-out><![CDATA[2021-10-13 08:57:03 - [TEST_CASE][PASSED] - Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login: Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login
+
+2021-10-13 08:57:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2021-10-13 08:57:04 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Open Browser: Test Cases/CustomKeyword/Open Browser
+
+2021-10-13 08:57:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-13 08:57:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-13 08:57:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-13 08:57:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-13 08:57:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-13 08:57:08 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-13 08:57:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2021-10-13 08:57:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Nevigate To Url"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Nevigate To Url' successfully
+
+2021-10-13 08:57:08 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Nevigate To Url: Test Cases/CustomKeyword/Nevigate To Url
+
+2021-10-13 08:57:09 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'http://dev.pijarbelajar.id/' successfully
+
+2021-10-13 08:57:10 - [MESSAGE][PASSED] - Navigate to 'http://dev.pijarbelajar.id/' successfully
+
+2021-10-13 08:57:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Nevigate To Url' successfully
+
+2021-10-13 08:57:10 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar")): Object: 'Object Repository/Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar' is clicked on
+
+2021-10-13 08:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar' is clicked on
+
+2021-10-13 08:57:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login Email/input_Email_email"), email): Text 'sintadewi@yopmail.com' is set on object 'Object Repository/Login/Login Email/input_Email_email'
+
+2021-10-13 08:57:12 - [MESSAGE][PASSED] - Text 'sintadewi@yopmail.com' is set on object 'Object Repository/Login/Login Email/input_Email_email'
+
+2021-10-13 08:57:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login Email/input_Password_password"), password): Text '12345678' is set on object 'Object Repository/Login/Login Email/input_Password_password'
+
+2021-10-13 08:57:13 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Login/Login Email/input_Password_password'
+
+2021-10-13 08:57:13 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_eyes")): Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-13 08:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-13 08:57:13 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_eyes")): Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-13 08:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-13 08:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/checkbox_ingat")): Object: 'Object Repository/Login/Login Email/checkbox_ingat' is clicked on
+
+2021-10-13 08:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/checkbox_ingat' is clicked on
+
+2021-10-13 08:57:15 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_Masuk")): Object: 'Object Repository/Login/Login Email/button_Masuk' is clicked on
+
+2021-10-13 08:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_Masuk' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/Simulasi UNBK dan UTBK/Positive Case/Pastika User dapat Mengakses Simulasi UNBK dan UTBK" time="16.878" classname="Test Cases/User/Simulasi UNBK dan UTBK/Positive Case/Pastika User dapat Mengakses Simulasi UNBK dan UTBK" status="PASSED">
+         <system-out><![CDATA[2021-10-13 08:57:15 - [TEST_CASE][PASSED] - Test Cases/User/Simulasi UNBK dan UTBK/Positive Case/Pastika User dapat Mengakses Simulasi UNBK dan UTBK: Test Cases/User/Simulasi UNBK dan UTBK/Positive Case/Pastika User dapat Mengakses Simulasi UNBK dan UTBK
+
+2021-10-13 08:57:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("User/Login/Positive Case/Pastikan User dapat melakukan login"), ["email":"sintadewi@yopmail.com", "password":"12345678"], STOP_ON_FAILURE): Call Test Case 'Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login' successfully
+
+2021-10-13 08:57:15 - [TEST_CASE][PASSED] - Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login: Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login
+
+2021-10-13 08:57:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2021-10-13 08:57:16 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Open Browser: Test Cases/CustomKeyword/Open Browser
+
+2021-10-13 08:57:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-13 08:57:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-13 08:57:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-13 08:57:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-13 08:57:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-13 08:57:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-13 08:57:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-13 08:57:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2021-10-13 08:57:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Nevigate To Url"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Nevigate To Url' successfully
+
+2021-10-13 08:57:17 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Nevigate To Url: Test Cases/CustomKeyword/Nevigate To Url
+
+2021-10-13 08:57:17 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'http://dev.pijarbelajar.id/' successfully
+
+2021-10-13 08:57:19 - [MESSAGE][PASSED] - Navigate to 'http://dev.pijarbelajar.id/' successfully
+
+2021-10-13 08:57:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Nevigate To Url' successfully
+
+2021-10-13 08:57:19 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar")): Object: 'Object Repository/Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar' is clicked on
+
+2021-10-13 08:57:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar' is clicked on
+
+2021-10-13 08:57:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login Email/input_Email_email"), email): Text 'sintadewi@yopmail.com' is set on object 'Object Repository/Login/Login Email/input_Email_email'
+
+2021-10-13 08:57:21 - [MESSAGE][PASSED] - Text 'sintadewi@yopmail.com' is set on object 'Object Repository/Login/Login Email/input_Email_email'
+
+2021-10-13 08:57:21 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login Email/input_Password_password"), password): Text '12345678' is set on object 'Object Repository/Login/Login Email/input_Password_password'
+
+2021-10-13 08:57:22 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Login/Login Email/input_Password_password'
+
+2021-10-13 08:57:22 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_eyes")): Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-13 08:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-13 08:57:22 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_eyes")): Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-13 08:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-13 08:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/checkbox_ingat")): Object: 'Object Repository/Login/Login Email/checkbox_ingat' is clicked on
+
+2021-10-13 08:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/checkbox_ingat' is clicked on
+
+2021-10-13 08:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_Masuk")): Object: 'Object Repository/Login/Login Email/button_Masuk' is clicked on
+
+2021-10-13 08:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_Masuk' is clicked on
+
+2021-10-13 08:57:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login' successfully
+
+2021-10-13 08:57:24 - [TEST_STEP][PASSED] - click(findTestObject("UNBK dan UTBK/div_Simulasi UNBK")): Object: 'Object Repository/UNBK dan UTBK/div_Simulasi UNBK' is clicked on
+
+2021-10-13 08:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/UNBK dan UTBK/div_Simulasi UNBK' is clicked on
+
+2021-10-13 08:57:28 - [TEST_STEP][PASSED] - click(findTestObject("UNBK dan UTBK/p_Matematika Wajib")): Object: 'Object Repository/UNBK dan UTBK/p_Matematika Wajib' is clicked on
+
+2021-10-13 08:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/UNBK dan UTBK/p_Matematika Wajib' is clicked on
+
+2021-10-13 08:57:29 - [TEST_STEP][PASSED] - click(findTestObject("UNBK dan UTBK/a_Simulasi UNBK")): Object: 'Object Repository/UNBK dan UTBK/a_Simulasi UNBK' is clicked on
+
+2021-10-13 08:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/UNBK dan UTBK/a_Simulasi UNBK' is clicked on
+
+2021-10-13 08:57:30 - [TEST_STEP][PASSED] - click(findTestObject("UNBK dan UTBK/div_Simulasi UTBK")): Object: 'Object Repository/UNBK dan UTBK/div_Simulasi UTBK' is clicked on
+
+2021-10-13 08:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/UNBK dan UTBK/div_Simulasi UTBK' is clicked on
+
+2021-10-13 08:57:30 - [TEST_STEP][PASSED] - click(findTestObject("UNBK dan UTBK/p_Bahasa Indonesia")): Object: 'Object Repository/UNBK dan UTBK/p_Bahasa Indonesia' is clicked on
+
+2021-10-13 08:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/UNBK dan UTBK/p_Bahasa Indonesia' is clicked on
+
+2021-10-13 08:57:31 - [TEST_STEP][PASSED] - click(findTestObject("UNBK dan UTBK/a_Simulasi UTBK")): Object: 'Object Repository/UNBK dan UTBK/a_Simulasi UTBK' is clicked on
+
+2021-10-13 08:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/UNBK dan UTBK/a_Simulasi UTBK' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-13 08:57:03 - [TEST_SUITE][PASSED] - Pastikan User dapat mengakses UNBK dan UTBK: Test Cases/User/Simulasi UNBK dan UTBK/Positive Case/Pastika User dapat Mengakses Simulasi UNBK dan UTBK]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 92.0.4515.107,,,2021-09-15 14:48:31,2021-09-15 14:48:45,14.347s,PASSED
+,,,,,,,
+Test Cases/CustomKeyword/Open Browser,Chrome 92.0.4515.107,,,2021-09-15 14:48:31,2021-09-15 14:48:35,3.964s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.107,,,2021-09-15 14:48:32,2021-09-15 14:48:35,3.168s,PASSED
+maximizeWindow(),Chrome 92.0.4515.107,,,2021-09-15 14:48:35,2021-09-15 14:48:35,0.234s,PASSED
+,,,,,,,
+Test Cases/CustomKeyword/Nevigate To Url,Chrome 92.0.4515.107,,,2021-09-15 14:48:35,2021-09-15 14:48:39,4.255s,PASSED
+navigateToUrl(BASE_URL),Chrome 92.0.4515.107,,,2021-09-15 14:48:36,2021-09-15 14:48:39,3.729s,PASSED
+,,,,,,,
+Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login,Chrome 92.0.4515.107,,,2021-09-15 14:48:39,2021-09-15 14:48:45,5.586s,PASSED
+"click(findTestObject(""Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar""))",Chrome 92.0.4515.107,,,2021-09-15 14:48:40,2021-09-15 14:48:41,0.522s,PASSED
+"setText(findTestObject(""Login/Login Email/input_Email_email""), email)",Chrome 92.0.4515.107,,,2021-09-15 14:48:41,2021-09-15 14:48:42,1.798s,PASSED
+"setText(findTestObject(""Login/Login Email/input_Password_password""), password)",Chrome 92.0.4515.107,,,2021-09-15 14:48:42,2021-09-15 14:48:43,0.798s,PASSED
+"click(findTestObject(""Login/Login Email/button_eyes""))",Chrome 92.0.4515.107,,,2021-09-15 14:48:43,2021-09-15 14:48:44,0.405s,PASSED
+"click(findTestObject(""Login/Login Email/button_eyes""))",Chrome 92.0.4515.107,,,2021-09-15 14:48:44,2021-09-15 14:48:44,0.596s,PASSED
+"click(findTestObject(""Login/Login Email/checkbox_ingat""))",Chrome 92.0.4515.107,,,2021-09-15 14:48:44,2021-09-15 14:48:45,0.479s,PASSED
+"click(findTestObject(""Login/Login Email/button_Masuk""))",Chrome 92.0.4515.107,,,2021-09-15 14:48:45,2021-09-15 14:48:45,0.389s,PASSED

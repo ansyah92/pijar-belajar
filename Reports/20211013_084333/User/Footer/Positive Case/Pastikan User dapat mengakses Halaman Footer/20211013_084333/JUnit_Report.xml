@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pastikan User dapat mengakses Halaman Footer" time="19.306" tests="4" failures="0" errors="0">
+   <testsuite name="Pastikan User dapat mengakses Halaman Footer" tests="4" failures="0" errors="0" time="19.306" skipped="0" timestamp="2021-10-13 08:43:36" hostname="ardiansyah - manjaro" id="Test Suites/User/Footer/Positive Case/Pastikan User dapat mengakses Halaman Footer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ardiansyah/Work/Telkom/Pijar Belajar/Katalon/Pijar-Belajar/Pijar Belajar/Reports/20211013_084333/User/Footer/Positive Case/Pastikan User dapat mengakses Halaman Footer/20211013_084333"/>
+         <property name="logFiles" value="/home/ardiansyah/Work/Telkom/Pijar Belajar/Katalon/Pijar-Belajar/Pijar Belajar/Reports/20211013_084333/User/Footer/Positive Case/Pastikan User dapat mengakses Halaman Footer/20211013_084333/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ardiansyah - manjaro"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="192.168.100.9"/>
+         <property name="sessionId" value="21b40f5aa3026e4ed5647210515c5e1b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/CustomKeyword/Open Browser" time="3.187" classname="Test Cases/CustomKeyword/Open Browser" status="PASSED">
+         <system-out><![CDATA[2021-10-13 08:43:37 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Open Browser: Test Cases/CustomKeyword/Open Browser
+
+2021-10-13 08:43:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-13 08:43:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-13 08:43:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-13 08:43:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-13 08:43:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-13 08:43:40 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CustomKeyword/Nevigate To Url" time="2.426" classname="Test Cases/CustomKeyword/Nevigate To Url" status="PASSED">
+         <system-out><![CDATA[2021-10-13 08:43:40 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Nevigate To Url: Test Cases/CustomKeyword/Nevigate To Url
+
+2021-10-13 08:43:40 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'http://dev.pijarbelajar.id/' successfully
+
+2021-10-13 08:43:42 - [MESSAGE][PASSED] - Navigate to 'http://dev.pijarbelajar.id/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login" time="5.177" classname="Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login" status="PASSED">
+         <system-out><![CDATA[2021-10-13 08:43:42 - [TEST_CASE][PASSED] - Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login: Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login
+
+2021-10-13 08:43:43 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar")): Object: 'Object Repository/Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar' is clicked on
+
+2021-10-13 08:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar' is clicked on
+
+2021-10-13 08:43:43 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login Email/input_Email_email"), email): Text 'sintadewi@yopmail.com' is set on object 'Object Repository/Login/Login Email/input_Email_email'
+
+2021-10-13 08:43:45 - [MESSAGE][PASSED] - Text 'sintadewi@yopmail.com' is set on object 'Object Repository/Login/Login Email/input_Email_email'
+
+2021-10-13 08:43:45 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login Email/input_Password_password"), password): Text '12345678' is set on object 'Object Repository/Login/Login Email/input_Password_password'
+
+2021-10-13 08:43:45 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Login/Login Email/input_Password_password'
+
+2021-10-13 08:43:45 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_eyes")): Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-13 08:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-13 08:43:46 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_eyes")): Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-13 08:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-13 08:43:46 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/checkbox_ingat")): Object: 'Object Repository/Login/Login Email/checkbox_ingat' is clicked on
+
+2021-10-13 08:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/checkbox_ingat' is clicked on
+
+2021-10-13 08:43:47 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_Masuk")): Object: 'Object Repository/Login/Login Email/button_Masuk' is clicked on
+
+2021-10-13 08:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_Masuk' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/Footer/Positive Case/Pastikan user dapat mengakses halam menu footer" time="7.433" classname="Test Cases/User/Footer/Positive Case/Pastikan user dapat mengakses halam menu footer" status="PASSED">
+         <system-out><![CDATA[2021-10-13 08:43:47 - [TEST_CASE][PASSED] - Test Cases/User/Footer/Positive Case/Pastikan user dapat mengakses halam menu footer: Test Cases/User/Footer/Positive Case/Pastikan user dapat mengakses halam menu footer
+
+2021-10-13 08:43:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Footer/p_Didukung oleh"), 1): Scroll to object 'Object Repository/Footer/p_Didukung oleh' successfully
+
+2021-10-13 08:43:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Footer/p_Didukung oleh' successfully
+
+2021-10-13 08:43:51 - [TEST_STEP][PASSED] - click(findTestObject("Footer/a_Tentang Pijar Belajar")): Object: 'Object Repository/Footer/a_Tentang Pijar Belajar' is clicked on
+
+2021-10-13 08:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer/a_Tentang Pijar Belajar' is clicked on
+
+2021-10-13 08:43:51 - [TEST_STEP][PASSED] - click(findTestObject("Footer/a_FAQ")): Object: 'Object Repository/Footer/a_FAQ' is clicked on
+
+2021-10-13 08:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer/a_FAQ' is clicked on
+
+2021-10-13 08:43:52 - [TEST_STEP][PASSED] - click(findTestObject("Footer/div_Apa itu Pijar Belajar")): Object: 'Object Repository/Footer/div_Apa itu Pijar Belajar' is clicked on
+
+2021-10-13 08:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer/div_Apa itu Pijar Belajar' is clicked on
+
+2021-10-13 08:43:53 - [TEST_STEP][PASSED] - click(findTestObject("Footer/a_Syarat dan Ketentuan")): Object: 'Object Repository/Footer/a_Syarat dan Ketentuan' is clicked on
+
+2021-10-13 08:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer/a_Syarat dan Ketentuan' is clicked on
+
+2021-10-13 08:43:53 - [TEST_STEP][PASSED] - click(findTestObject("Footer/div_Informasi Pribadi")): Object: 'Object Repository/Footer/div_Informasi Pribadi' is clicked on
+
+2021-10-13 08:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer/div_Informasi Pribadi' is clicked on
+
+2021-10-13 08:43:53 - [TEST_STEP][PASSED] - click(findTestObject("Footer/a_Kebijakan Privasi")): Object: 'Object Repository/Footer/a_Kebijakan Privasi' is clicked on
+
+2021-10-13 08:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer/a_Kebijakan Privasi' is clicked on
+
+2021-10-13 08:43:54 - [TEST_STEP][PASSED] - click(findTestObject("Footer/div_Pengumpulan dan Penggunaan Informasi")): Object: 'Object Repository/Footer/div_Pengumpulan dan Penggunaan Informasi' is clicked on
+
+2021-10-13 08:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer/div_Pengumpulan dan Penggunaan Informasi' is clicked on
+
+2021-10-13 08:43:54 - [TEST_STEP][PASSED] - click(findTestObject("Footer/a_Hubungi Kami")): Object: 'Object Repository/Footer/a_Hubungi Kami' is clicked on
+
+2021-10-13 08:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer/a_Hubungi Kami' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-13 08:43:36 - [TEST_SUITE][PASSED] - Pastikan User dapat mengakses Halaman Footer: Test Cases/User/Footer/Positive Case/Pastikan user dapat mengakses halam menu footer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

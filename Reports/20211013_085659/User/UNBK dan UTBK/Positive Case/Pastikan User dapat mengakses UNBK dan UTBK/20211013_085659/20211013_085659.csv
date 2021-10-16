@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pastikan User dapat mengakses UNBK dan UTBK,Chrome 94.0.4606.81,,,2021-10-13 08:57:03,2021-10-13 08:57:32,28.968s,PASSED
+,,,,,,,
+Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login,Chrome 94.0.4606.81,,,2021-10-13 08:57:03,2021-10-13 08:57:15,11.580s,PASSED
+"callTestCase(findTestCase(""CustomKeyword/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-13 08:57:04,2021-10-13 08:57:08,4.302s,PASSED
+"callTestCase(findTestCase(""CustomKeyword/Nevigate To Url""), [:], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-13 08:57:08,2021-10-13 08:57:10,1.938s,PASSED
+"click(findTestObject(""Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar""))",Chrome 94.0.4606.81,,,2021-10-13 08:57:10,2021-10-13 08:57:11,0.547s,PASSED
+"setText(findTestObject(""Login/Login Email/input_Email_email""), email)",Chrome 94.0.4606.81,,,2021-10-13 08:57:11,2021-10-13 08:57:12,1.524s,PASSED
+"setText(findTestObject(""Login/Login Email/input_Password_password""), password)",Chrome 94.0.4606.81,,,2021-10-13 08:57:12,2021-10-13 08:57:13,0.687s,PASSED
+"click(findTestObject(""Login/Login Email/button_eyes""))",Chrome 94.0.4606.81,,,2021-10-13 08:57:13,2021-10-13 08:57:13,0.384s,PASSED
+"click(findTestObject(""Login/Login Email/button_eyes""))",Chrome 94.0.4606.81,,,2021-10-13 08:57:13,2021-10-13 08:57:14,0.640s,PASSED
+"click(findTestObject(""Login/Login Email/checkbox_ingat""))",Chrome 94.0.4606.81,,,2021-10-13 08:57:14,2021-10-13 08:57:15,0.504s,PASSED
+"click(findTestObject(""Login/Login Email/button_Masuk""))",Chrome 94.0.4606.81,,,2021-10-13 08:57:15,2021-10-13 08:57:15,0.390s,PASSED
+,,,,,,,
+Test Cases/User/Simulasi UNBK dan UTBK/Positive Case/Pastika User dapat Mengakses Simulasi UNBK dan UTBK,Chrome 94.0.4606.81,,,2021-10-13 08:57:15,2021-10-13 08:57:32,16.878s,PASSED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan login""), [""email"":""sintadewi@yopmail.com"", ""password"":""12345678""], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-13 08:57:15,2021-10-13 08:57:24,8.236s,PASSED
+"click(findTestObject(""UNBK dan UTBK/div_Simulasi UNBK""))",Chrome 94.0.4606.81,,,2021-10-13 08:57:24,2021-10-13 08:57:28,4.124s,PASSED
+"click(findTestObject(""UNBK dan UTBK/p_Matematika Wajib""))",Chrome 94.0.4606.81,,,2021-10-13 08:57:28,2021-10-13 08:57:29,0.844s,PASSED
+"click(findTestObject(""UNBK dan UTBK/a_Simulasi UNBK""))",Chrome 94.0.4606.81,,,2021-10-13 08:57:29,2021-10-13 08:57:30,0.964s,PASSED
+"click(findTestObject(""UNBK dan UTBK/div_Simulasi UTBK""))",Chrome 94.0.4606.81,,,2021-10-13 08:57:30,2021-10-13 08:57:30,0.621s,PASSED
+"click(findTestObject(""UNBK dan UTBK/p_Bahasa Indonesia""))",Chrome 94.0.4606.81,,,2021-10-13 08:57:30,2021-10-13 08:57:31,0.799s,PASSED
+"click(findTestObject(""UNBK dan UTBK/a_Simulasi UTBK""))",Chrome 94.0.4606.81,,,2021-10-13 08:57:31,2021-10-13 08:57:32,0.839s,PASSED

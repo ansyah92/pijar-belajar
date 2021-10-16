@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Negative Case,Chrome 92.0.4515.107,,,2021-09-27 15:51:22,2021-09-27 15:51:44,22.408s,PASSED
+,,,,,,,
+Test Cases/CustomKeyword/Open Browser,Chrome 92.0.4515.107,,,2021-09-27 15:51:22,2021-09-27 15:51:26,3.762s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.107,,,2021-09-27 15:51:23,2021-09-27 15:51:26,2.786s,PASSED
+maximizeWindow(),Chrome 92.0.4515.107,,,2021-09-27 15:51:26,2021-09-27 15:51:26,0.254s,PASSED
+,,,,,,,
+Test Cases/CustomKeyword/Nevigate To Url,Chrome 92.0.4515.107,,,2021-09-27 15:51:26,2021-09-27 15:51:37,11.194s,PASSED
+navigateToUrl(BASE_URL),Chrome 92.0.4515.107,,,2021-09-27 15:51:27,2021-09-27 15:51:37,10.263s,PASSED
+,,,,,,,
+Test Cases/User/Login/Negative Case/Pastikan User Tidak Dapat Melakukan Login Ke Aplikasi,Chrome 92.0.4515.107,,,2021-09-27 15:51:37,2021-09-27 15:51:44,6.865s,PASSED
+"click(findTestObject(""Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar""))",Chrome 92.0.4515.107,,,2021-09-27 15:51:37,2021-09-27 15:51:38,0.569s,PASSED
+"setText(findTestObject(""Login/Login Email/input_Email_email""), ""Sintadewi@yopmail.com"")",Chrome 92.0.4515.107,,,2021-09-27 15:51:38,2021-09-27 15:51:40,1.566s,PASSED
+"setText(findTestObject(""Login/Login Email/input_Password_password""), ""22114411"")",Chrome 92.0.4515.107,,,2021-09-27 15:51:40,2021-09-27 15:51:40,0.755s,PASSED
+"click(findTestObject(""Login/Login Email/button_Masuk""))",Chrome 92.0.4515.107,,,2021-09-27 15:51:40,2021-09-27 15:51:41,0.915s,PASSED
+refresh(),Chrome 92.0.4515.107,,,2021-09-27 15:51:41,2021-09-27 15:51:41,0.039s,PASSED
+"setText(findTestObject(""Login/Login Email/input_Email_email""), ""HaniLatifah@yopmail.com"")",Chrome 92.0.4515.107,,,2021-09-27 15:51:41,2021-09-27 15:51:43,1.502s,PASSED
+"setText(findTestObject(""Login/Login Email/input_Password_password""), ""12345678"")",Chrome 92.0.4515.107,,,2021-09-27 15:51:43,2021-09-27 15:51:44,0.700s,PASSED
+"click(findTestObject(""Login/Login Email/button_Masuk""))",Chrome 92.0.4515.107,,,2021-09-27 15:51:44,2021-09-27 15:51:44,0.383s,PASSED

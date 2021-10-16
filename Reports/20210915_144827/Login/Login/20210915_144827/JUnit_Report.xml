@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="14.951" tests="3" failures="0" errors="0">
+   <testsuite name="Login" tests="3" failures="0" errors="0" time="14.951" skipped="0" timestamp="2021-09-15 14:48:31" hostname="ardiansyah - manjaro" id="Test Suites/Login/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ardiansyah/Work/Telkom/Pijar Belajar/Katalon/Pijar-Belajar/Pijar Belajar/Reports/20210915_144827/Login/Login/20210915_144827"/>
+         <property name="logFiles" value="/home/ardiansyah/Work/Telkom/Pijar Belajar/Katalon/Pijar-Belajar/Pijar Belajar/Reports/20210915_144827/Login/Login/20210915_144827/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ardiansyah - manjaro"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 92.0.4515.107"/>
+         <property name="hostAddress" value="192.168.100.9"/>
+         <property name="sessionId" value="8404bb1df53c48bf7999bc2d54a18916"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/CustomKeyword/Open Browser" time="3.964" classname="Test Cases/CustomKeyword/Open Browser" status="PASSED">
+         <system-out><![CDATA[2021-09-15 14:48:31 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Open Browser: Test Cases/CustomKeyword/Open Browser
+
+2021-09-15 14:48:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-15 14:48:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-15 14:48:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-15 14:48:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-15 14:48:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-15 14:48:35 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CustomKeyword/Nevigate To Url" time="4.255" classname="Test Cases/CustomKeyword/Nevigate To Url" status="PASSED">
+         <system-out><![CDATA[2021-09-15 14:48:35 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Nevigate To Url: Test Cases/CustomKeyword/Nevigate To Url
+
+2021-09-15 14:48:36 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'http://dev.pijarbelajar.id/' successfully
+
+2021-09-15 14:48:39 - [MESSAGE][PASSED] - Navigate to 'http://dev.pijarbelajar.id/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login" time="5.586" classname="Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login" status="PASSED">
+         <system-out><![CDATA[2021-09-15 14:48:39 - [TEST_CASE][PASSED] - Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login: Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login
+
+2021-09-15 14:48:40 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar")): Object: 'Object Repository/Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar' is clicked on
+
+2021-09-15 14:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar' is clicked on
+
+2021-09-15 14:48:41 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login Email/input_Email_email"), email): Text 'sintadewi@yopmail.com' is set on object 'Object Repository/Login/Login Email/input_Email_email'
+
+2021-09-15 14:48:42 - [MESSAGE][PASSED] - Text 'sintadewi@yopmail.com' is set on object 'Object Repository/Login/Login Email/input_Email_email'
+
+2021-09-15 14:48:42 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login Email/input_Password_password"), password): Text '12345678' is set on object 'Object Repository/Login/Login Email/input_Password_password'
+
+2021-09-15 14:48:43 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Login/Login Email/input_Password_password'
+
+2021-09-15 14:48:43 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_eyes")): Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-09-15 14:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-09-15 14:48:44 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_eyes")): Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-09-15 14:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-09-15 14:48:44 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/checkbox_ingat")): Object: 'Object Repository/Login/Login Email/checkbox_ingat' is clicked on
+
+2021-09-15 14:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/checkbox_ingat' is clicked on
+
+2021-09-15 14:48:45 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_Masuk")): Object: 'Object Repository/Login/Login Email/button_Masuk' is clicked on
+
+2021-09-15 14:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_Masuk' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-15 14:48:31 - [TEST_SUITE][PASSED] - Login: Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

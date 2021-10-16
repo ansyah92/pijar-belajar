@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pastikan User dapat mengakses Halaman Footer,Chrome 94.0.4606.81,,,2021-10-13 08:43:36,2021-10-13 08:43:55,18.726s,PASSED
+,,,,,,,
+Test Cases/CustomKeyword/Open Browser,Chrome 94.0.4606.81,,,2021-10-13 08:43:37,2021-10-13 08:43:40,3.187s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-13 08:43:37,2021-10-13 08:43:40,2.528s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-13 08:43:40,2021-10-13 08:43:40,0.190s,PASSED
+,,,,,,,
+Test Cases/CustomKeyword/Nevigate To Url,Chrome 94.0.4606.81,,,2021-10-13 08:43:40,2021-10-13 08:43:42,2.426s,PASSED
+navigateToUrl(BASE_URL),Chrome 94.0.4606.81,,,2021-10-13 08:43:40,2021-10-13 08:43:42,1.915s,PASSED
+,,,,,,,
+Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login,Chrome 94.0.4606.81,,,2021-10-13 08:43:42,2021-10-13 08:43:47,5.177s,PASSED
+"click(findTestObject(""Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar""))",Chrome 94.0.4606.81,,,2021-10-13 08:43:43,2021-10-13 08:43:43,0.575s,PASSED
+"setText(findTestObject(""Login/Login Email/input_Email_email""), email)",Chrome 94.0.4606.81,,,2021-10-13 08:43:43,2021-10-13 08:43:45,1.525s,PASSED
+"setText(findTestObject(""Login/Login Email/input_Password_password""), password)",Chrome 94.0.4606.81,,,2021-10-13 08:43:45,2021-10-13 08:43:45,0.689s,PASSED
+"click(findTestObject(""Login/Login Email/button_eyes""))",Chrome 94.0.4606.81,,,2021-10-13 08:43:45,2021-10-13 08:43:46,0.388s,PASSED
+"click(findTestObject(""Login/Login Email/button_eyes""))",Chrome 94.0.4606.81,,,2021-10-13 08:43:46,2021-10-13 08:43:46,0.607s,PASSED
+"click(findTestObject(""Login/Login Email/checkbox_ingat""))",Chrome 94.0.4606.81,,,2021-10-13 08:43:46,2021-10-13 08:43:47,0.577s,PASSED
+"click(findTestObject(""Login/Login Email/button_Masuk""))",Chrome 94.0.4606.81,,,2021-10-13 08:43:47,2021-10-13 08:43:47,0.374s,PASSED
+,,,,,,,
+Test Cases/User/Footer/Positive Case/Pastikan user dapat mengakses halam menu footer,Chrome 94.0.4606.81,,,2021-10-13 08:43:47,2021-10-13 08:43:55,7.433s,PASSED
+"scrollToElement(findTestObject(""Footer/p_Didukung oleh""), 1)",Chrome 94.0.4606.81,,,2021-10-13 08:43:48,2021-10-13 08:43:51,2.819s,PASSED
+"click(findTestObject(""Footer/a_Tentang Pijar Belajar""))",Chrome 94.0.4606.81,,,2021-10-13 08:43:51,2021-10-13 08:43:51,0.662s,PASSED
+"click(findTestObject(""Footer/a_FAQ""))",Chrome 94.0.4606.81,,,2021-10-13 08:43:51,2021-10-13 08:43:52,0.635s,PASSED
+"click(findTestObject(""Footer/div_Apa itu Pijar Belajar""))",Chrome 94.0.4606.81,,,2021-10-13 08:43:52,2021-10-13 08:43:53,0.601s,PASSED
+"click(findTestObject(""Footer/a_Syarat dan Ketentuan""))",Chrome 94.0.4606.81,,,2021-10-13 08:43:53,2021-10-13 08:43:53,0.483s,PASSED
+"click(findTestObject(""Footer/div_Informasi Pribadi""))",Chrome 94.0.4606.81,,,2021-10-13 08:43:53,2021-10-13 08:43:53,0.480s,PASSED
+"click(findTestObject(""Footer/a_Kebijakan Privasi""))",Chrome 94.0.4606.81,,,2021-10-13 08:43:53,2021-10-13 08:43:54,0.474s,PASSED
+"click(findTestObject(""Footer/div_Pengumpulan dan Penggunaan Informasi""))",Chrome 94.0.4606.81,,,2021-10-13 08:43:54,2021-10-13 08:43:54,0.488s,PASSED
+"click(findTestObject(""Footer/a_Hubungi Kami""))",Chrome 94.0.4606.81,,,2021-10-13 08:43:54,2021-10-13 08:43:55,0.462s,PASSED

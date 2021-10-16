@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User tidak dapat melakukan login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d21106e-7af0-4623-b93f-8cb9e794dc9c</testCaseGuid>
+   <variable>
+      <defaultValue>'sintadewi@yopmail.com'</defaultValue>
+      <description></description>
+      <id>ef8bc3bb-bf7e-497b-b6ab-c22d1042e6ee</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456789'</defaultValue>
+      <description></description>
+      <id>ddddad4a-4bda-4408-aa69-bc74c026ad99</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

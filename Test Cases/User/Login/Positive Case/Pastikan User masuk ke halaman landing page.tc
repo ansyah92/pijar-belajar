@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User masuk ke halaman landing page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>179daa4e-6be6-4e47-be37-efeade8f24e5</testCaseGuid>
+   <variable>
+      <defaultValue>'sintadewi@yopmail.com'</defaultValue>
+      <description></description>
+      <id>7465cef9-6708-48dd-9e96-adf86c8e841e</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345678'</defaultValue>
+      <description></description>
+      <id>0d3c9dd9-dfcf-4fec-bf54-99d818cc386a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
