@@ -17,35 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('User/Login/Positive Case/Pastikan User dapat melakukan login'), [('email') : 'wawanfebrianto@yopmail.com'
+        , ('password') : '132245678'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Nevigate To Url'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Ubah Password Voucher/Page_Pijar Belajar/button_Ubah Password'))
 
-WebUI.click(findTestObject('Register Voucher/button_Mulai Belajar'))
+WebUI.setText(findTestObject('Ubah Password Voucher/Page_Pijar Belajar/input_Email_email'), 'wawanfebrianto@yopmail.com')
 
-WebUI.click(findTestObject('Register Voucher/button_Gunakan Voucher'))
-
-WebUI.setText(findTestObject('Register Voucher/input_Username_code'), 'PJRQA11')
-
-WebUI.setText(findTestObject('Register Voucher/input_Password_password'), '132245678')
-
-WebUI.click(findTestObject('Register Voucher/button_Masuk'))
-
-WebUI.setText(findTestObject('Register Voucher/input_Nama Lengkap_fullname'), 'Wawan Febrianto 200')
-
-WebUI.setText(findTestObject('Register Voucher/input_Email_email'), 'wawanfebrianto@yopmail.com')
-
-WebUI.setText(findTestObject('Register Voucher/input_Nomor Telepon_phone'), '8997766212221')
-
-WebUI.click(findTestObject('Register Voucher/input_Jenjang Pendidikan_categoryId'))
-
-WebUI.click(findTestObject('Register Voucher/span_SMA - Kelas 12 IPA'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Register Voucher/button_Selesai'))
+WebUI.click(findTestObject('Ubah Password Voucher/Page_Pijar Belajar/button_Lanjutkan'))
 
 WebUI.delay(40)
 
-WebUI.click(findTestObject('Register Voucher/button_Verifikasi'))
+WebUI.click(findTestObject('Ubah Password Voucher/Page_Pijar Belajar/button_Verifikasi'))
 
-WebUI.delay(20)
+WebUI.setText(findTestObject('Ubah Password Voucher/Page_Pijar Belajar/input_Password_password'), '12345678')
+
+WebUI.setText(findTestObject('Ubah Password Voucher/Page_Pijar Belajar/input_Konfirmasi Password_retypePassword'), '12345678')
+
+WebUI.click(findTestObject('Ubah Password Voucher/Page_Pijar Belajar/button_Ubah Password_2'))
+
+WebUI.click(findTestObject('Ubah Password Voucher/Page_Pijar Belajar/button_Ke Pengaturan Profil'))
 

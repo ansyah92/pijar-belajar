@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User dapat Daftar menggunakan Voucher Serta Ubah Password" time="140.895" tests="2" failures="0" errors="0">
+   <testsuite name="User dapat Daftar menggunakan Voucher Serta Ubah Password" tests="2" failures="0" errors="0" time="140.895" skipped="0" timestamp="2021-10-19 07:23:47" hostname="ardiansyah - manjaro" id="Test Suites/User/Daftar/User dapat Daftar menggunakan Voucher Serta Ubah Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ardiansyah/Work/Telkom/Pijar Belajar/Katalon/pijar-belajar/Reports/20211019_072343/User/Daftar/User dapat Daftar menggunakan Voucher Serta Ubah Password/20211019_072343"/>
+         <property name="logFiles" value="/home/ardiansyah/Work/Telkom/Pijar Belajar/Katalon/pijar-belajar/Reports/20211019_072343/User/Daftar/User dapat Daftar menggunakan Voucher Serta Ubah Password/20211019_072343/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ardiansyah - manjaro"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="192.168.100.9"/>
+         <property name="sessionId" value="46b21a0b41e1800b618ee451f3b6c37e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/User/Daftar/Positive Case/Pastikan User Dapat Melakukan Daftar Menggunakan Voucher" time="77.273" classname="Test Cases/User/Daftar/Positive Case/Pastikan User Dapat Melakukan Daftar Menggunakan Voucher" status="PASSED">
+         <system-out><![CDATA[2021-10-19 07:23:48 - [TEST_CASE][PASSED] - Test Cases/User/Daftar/Positive Case/Pastikan User Dapat Melakukan Daftar Menggunakan Voucher: Test Cases/User/Daftar/Positive Case/Pastikan User Dapat Melakukan Daftar Menggunakan Voucher
+
+2021-10-19 07:23:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2021-10-19 07:23:49 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Open Browser: Test Cases/CustomKeyword/Open Browser
+
+2021-10-19 07:23:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-19 07:23:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-19 07:23:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-19 07:23:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-19 07:23:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-19 07:23:52 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-19 07:23:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2021-10-19 07:23:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Nevigate To Url"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Nevigate To Url' successfully
+
+2021-10-19 07:23:52 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Nevigate To Url: Test Cases/CustomKeyword/Nevigate To Url
+
+2021-10-19 07:23:53 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'http://dev.pijarbelajar.id/' successfully
+
+2021-10-19 07:23:56 - [MESSAGE][PASSED] - Navigate to 'http://dev.pijarbelajar.id/' successfully
+
+2021-10-19 07:23:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Nevigate To Url' successfully
+
+2021-10-19 07:23:56 - [TEST_STEP][PASSED] - click(findTestObject("Register Voucher/button_Mulai Belajar")): Object: 'Object Repository/Register Voucher/button_Mulai Belajar' is clicked on
+
+2021-10-19 07:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Voucher/button_Mulai Belajar' is clicked on
+
+2021-10-19 07:23:56 - [TEST_STEP][PASSED] - click(findTestObject("Register Voucher/button_Gunakan Voucher")): Object: 'Object Repository/Register Voucher/button_Gunakan Voucher' is clicked on
+
+2021-10-19 07:23:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Voucher/button_Gunakan Voucher' is clicked on
+
+2021-10-19 07:23:58 - [TEST_STEP][PASSED] - setText(findTestObject("Register Voucher/input_Username_code"), "PJRQA11"): Text 'PJRQA11' is set on object 'Object Repository/Register Voucher/input_Username_code'
+
+2021-10-19 07:23:59 - [MESSAGE][PASSED] - Text 'PJRQA11' is set on object 'Object Repository/Register Voucher/input_Username_code'
+
+2021-10-19 07:23:59 - [TEST_STEP][PASSED] - setText(findTestObject("Register Voucher/input_Password_password"), "132245678"): Text '132245678' is set on object 'Object Repository/Register Voucher/input_Password_password'
+
+2021-10-19 07:24:00 - [MESSAGE][PASSED] - Text '132245678' is set on object 'Object Repository/Register Voucher/input_Password_password'
+
+2021-10-19 07:24:00 - [TEST_STEP][PASSED] - click(findTestObject("Register Voucher/button_Masuk")): Object: 'Object Repository/Register Voucher/button_Masuk' is clicked on
+
+2021-10-19 07:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Voucher/button_Masuk' is clicked on
+
+2021-10-19 07:24:00 - [TEST_STEP][PASSED] - setText(findTestObject("Register Voucher/input_Nama Lengkap_fullname"), "Wawan Febrianto 200"): Text 'Wawan Febrianto 200' is set on object 'Object Repository/Register Voucher/input_Nama Lengkap_fullname'
+
+2021-10-19 07:24:02 - [MESSAGE][PASSED] - Text 'Wawan Febrianto 200' is set on object 'Object Repository/Register Voucher/input_Nama Lengkap_fullname'
+
+2021-10-19 07:24:02 - [TEST_STEP][PASSED] - setText(findTestObject("Register Voucher/input_Email_email"), "wawanfebrianto@yopmail.com"): Text 'wawanfebrianto@yopmail.com' is set on object 'Object Repository/Register Voucher/input_Email_email'
+
+2021-10-19 07:24:02 - [MESSAGE][PASSED] - Text 'wawanfebrianto@yopmail.com' is set on object 'Object Repository/Register Voucher/input_Email_email'
+
+2021-10-19 07:24:02 - [TEST_STEP][PASSED] - setText(findTestObject("Register Voucher/input_Nomor Telepon_phone"), "8997766212221"): Text '8997766212221' is set on object 'Object Repository/Register Voucher/input_Nomor Telepon_phone'
+
+2021-10-19 07:24:03 - [MESSAGE][PASSED] - Text '8997766212221' is set on object 'Object Repository/Register Voucher/input_Nomor Telepon_phone'
+
+2021-10-19 07:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Register Voucher/input_Jenjang Pendidikan_categoryId")): Object: 'Object Repository/Register Voucher/input_Jenjang Pendidikan_categoryId' is clicked on
+
+2021-10-19 07:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Voucher/input_Jenjang Pendidikan_categoryId' is clicked on
+
+2021-10-19 07:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Register Voucher/span_SMA - Kelas 12 IPA"), STOP_ON_FAILURE): Object: 'Object Repository/Register Voucher/span_SMA - Kelas 12 IPA' is clicked on
+
+2021-10-19 07:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Voucher/span_SMA - Kelas 12 IPA' is clicked on
+
+2021-10-19 07:24:04 - [TEST_STEP][PASSED] - click(findTestObject("Register Voucher/button_Selesai")): Object: 'Object Repository/Register Voucher/button_Selesai' is clicked on
+
+2021-10-19 07:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Voucher/button_Selesai' is clicked on
+
+2021-10-19 07:24:05 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+2021-10-19 07:24:45 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2021-10-19 07:24:45 - [TEST_STEP][PASSED] - click(findTestObject("Register Voucher/button_Verifikasi")): Object: 'Object Repository/Register Voucher/button_Verifikasi' is clicked on
+
+2021-10-19 07:24:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Register Voucher/button_Verifikasi' is clicked on
+
+2021-10-19 07:24:45 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2021-10-19 07:25:05 - [MESSAGE][PASSED] - Delayed 20 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/Ubah Password Voucher/Positive Case/Pastikan User Dapat Mengubah Password ketika login dengn voucher" time="62.107" classname="Test Cases/User/Ubah Password Voucher/Positive Case/Pastikan User Dapat Mengubah Password ketika login dengn voucher" status="PASSED">
+         <system-out><![CDATA[2021-10-19 07:25:05 - [TEST_CASE][PASSED] - Test Cases/User/Ubah Password Voucher/Positive Case/Pastikan User Dapat Mengubah Password ketika login dengn voucher: Test Cases/User/Ubah Password Voucher/Positive Case/Pastikan User Dapat Mengubah Password ketika login dengn voucher
+
+2021-10-19 07:25:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("User/Login/Positive Case/Pastikan User dapat melakukan login"), ["email":"wawanfebrianto@yopmail.com", "password":"132245678"], STOP_ON_FAILURE): Call Test Case 'Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login' successfully
+
+2021-10-19 07:25:06 - [TEST_CASE][PASSED] - Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login: Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login
+
+2021-10-19 07:25:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2021-10-19 07:25:06 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Open Browser: Test Cases/CustomKeyword/Open Browser
+
+2021-10-19 07:25:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-19 07:25:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-19 07:25:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-19 07:25:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-19 07:25:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-19 07:25:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-19 07:25:08 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-19 07:25:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2021-10-19 07:25:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Nevigate To Url"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Nevigate To Url' successfully
+
+2021-10-19 07:25:08 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Nevigate To Url: Test Cases/CustomKeyword/Nevigate To Url
+
+2021-10-19 07:25:08 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'http://dev.pijarbelajar.id/' successfully
+
+2021-10-19 07:25:14 - [MESSAGE][PASSED] - Navigate to 'http://dev.pijarbelajar.id/' successfully
+
+2021-10-19 07:25:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Nevigate To Url' successfully
+
+2021-10-19 07:25:14 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar")): Object: 'Object Repository/Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar' is clicked on
+
+2021-10-19 07:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar' is clicked on
+
+2021-10-19 07:25:14 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login Email/input_Email_email"), email): Text 'wawanfebrianto@yopmail.com' is set on object 'Object Repository/Login/Login Email/input_Email_email'
+
+2021-10-19 07:25:16 - [MESSAGE][PASSED] - Text 'wawanfebrianto@yopmail.com' is set on object 'Object Repository/Login/Login Email/input_Email_email'
+
+2021-10-19 07:25:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login Email/input_Password_password"), password): Text '132245678' is set on object 'Object Repository/Login/Login Email/input_Password_password'
+
+2021-10-19 07:25:17 - [MESSAGE][PASSED] - Text '132245678' is set on object 'Object Repository/Login/Login Email/input_Password_password'
+
+2021-10-19 07:25:17 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_eyes")): Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-19 07:25:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-19 07:25:17 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_eyes")): Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-19 07:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-19 07:25:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/checkbox_ingat")): Object: 'Object Repository/Login/Login Email/checkbox_ingat' is clicked on
+
+2021-10-19 07:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/checkbox_ingat' is clicked on
+
+2021-10-19 07:25:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_Masuk")): Object: 'Object Repository/Login/Login Email/button_Masuk' is clicked on
+
+2021-10-19 07:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_Masuk' is clicked on
+
+2021-10-19 07:25:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login' successfully
+
+2021-10-19 07:25:19 - [TEST_STEP][PASSED] - click(findTestObject("Ubah Password Voucher/Page_Pijar Belajar/button_Ubah Password")): Object: 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/button_Ubah Password' is clicked on
+
+2021-10-19 07:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/button_Ubah Password' is clicked on
+
+2021-10-19 07:25:22 - [TEST_STEP][PASSED] - setText(findTestObject("Ubah Password Voucher/Page_Pijar Belajar/input_Email_email"), "wawanfebrianto@yopmail.com"): Text 'wawanfebrianto@yopmail.com' is set on object 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/input_Email_email'
+
+2021-10-19 07:25:23 - [MESSAGE][PASSED] - Text 'wawanfebrianto@yopmail.com' is set on object 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/input_Email_email'
+
+2021-10-19 07:25:23 - [TEST_STEP][PASSED] - click(findTestObject("Ubah Password Voucher/Page_Pijar Belajar/button_Lanjutkan")): Object: 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/button_Lanjutkan' is clicked on
+
+2021-10-19 07:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/button_Lanjutkan' is clicked on
+
+2021-10-19 07:25:24 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+2021-10-19 07:26:04 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2021-10-19 07:26:04 - [TEST_STEP][PASSED] - click(findTestObject("Ubah Password Voucher/Page_Pijar Belajar/button_Verifikasi")): Object: 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/button_Verifikasi' is clicked on
+
+2021-10-19 07:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/button_Verifikasi' is clicked on
+
+2021-10-19 07:26:04 - [TEST_STEP][PASSED] - setText(findTestObject("Ubah Password Voucher/Page_Pijar Belajar/input_Password_password"), "12345678"): Text '12345678' is set on object 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/input_Password_password'
+
+2021-10-19 07:26:05 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/input_Password_password'
+
+2021-10-19 07:26:05 - [TEST_STEP][PASSED] - setText(findTestObject("Ubah Password Voucher/Page_Pijar Belajar/input_Konfirmasi Password_retypePassword"), "12345678"): Text '12345678' is set on object 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/input_Konfirmasi Password_retypePassword'
+
+2021-10-19 07:26:06 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/input_Konfirmasi Password_retypePassword'
+
+2021-10-19 07:26:06 - [TEST_STEP][PASSED] - click(findTestObject("Ubah Password Voucher/Page_Pijar Belajar/button_Ubah Password_2")): Object: 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/button_Ubah Password_2' is clicked on
+
+2021-10-19 07:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/button_Ubah Password_2' is clicked on
+
+2021-10-19 07:26:07 - [TEST_STEP][PASSED] - click(findTestObject("Ubah Password Voucher/Page_Pijar Belajar/button_Ke Pengaturan Profil")): Object: 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/button_Ke Pengaturan Profil' is clicked on
+
+2021-10-19 07:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Ubah Password Voucher/Page_Pijar Belajar/button_Ke Pengaturan Profil' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-19 07:23:47 - [TEST_SUITE][PASSED] - User dapat Daftar menggunakan Voucher Serta Ubah Password: Test Cases/User/Ubah Password Voucher/Positive Case/Pastikan User Dapat Mengubah Password ketika login dengn voucher]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

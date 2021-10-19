@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User dapat Daftar menggunakan Voucher Serta Ubah Password,Chrome 94.0.4606.81,,,2021-10-19 07:23:47,2021-10-19 07:26:07,2m - 20.084s,PASSED
+,,,,,,,
+Test Cases/User/Daftar/Positive Case/Pastikan User Dapat Melakukan Daftar Menggunakan Voucher,Chrome 94.0.4606.81,,,2021-10-19 07:23:48,2021-10-19 07:25:05,1m - 17.273s,PASSED
+"callTestCase(findTestCase(""CustomKeyword/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-19 07:23:49,2021-10-19 07:23:52,3.389s,PASSED
+"callTestCase(findTestCase(""CustomKeyword/Nevigate To Url""), [:], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-19 07:23:52,2021-10-19 07:23:56,3.620s,PASSED
+"click(findTestObject(""Register Voucher/button_Mulai Belajar""))",Chrome 94.0.4606.81,,,2021-10-19 07:23:56,2021-10-19 07:23:56,0.768s,PASSED
+"click(findTestObject(""Register Voucher/button_Gunakan Voucher""))",Chrome 94.0.4606.81,,,2021-10-19 07:23:56,2021-10-19 07:23:58,1.427s,PASSED
+"setText(findTestObject(""Register Voucher/input_Username_code""), ""PJRQA11"")",Chrome 94.0.4606.81,,,2021-10-19 07:23:58,2021-10-19 07:23:59,1.072s,PASSED
+"setText(findTestObject(""Register Voucher/input_Password_password""), ""132245678"")",Chrome 94.0.4606.81,,,2021-10-19 07:23:59,2021-10-19 07:24:00,0.725s,PASSED
+"click(findTestObject(""Register Voucher/button_Masuk""))",Chrome 94.0.4606.81,,,2021-10-19 07:24:00,2021-10-19 07:24:00,0.414s,PASSED
+"setText(findTestObject(""Register Voucher/input_Nama Lengkap_fullname""), ""Wawan Febrianto 200"")",Chrome 94.0.4606.81,,,2021-10-19 07:24:00,2021-10-19 07:24:02,1.623s,PASSED
+"setText(findTestObject(""Register Voucher/input_Email_email""), ""wawanfebrianto@yopmail.com"")",Chrome 94.0.4606.81,,,2021-10-19 07:24:02,2021-10-19 07:24:02,0.784s,PASSED
+"setText(findTestObject(""Register Voucher/input_Nomor Telepon_phone""), ""8997766212221"")",Chrome 94.0.4606.81,,,2021-10-19 07:24:02,2021-10-19 07:24:03,0.706s,PASSED
+"click(findTestObject(""Register Voucher/input_Jenjang Pendidikan_categoryId""))",Chrome 94.0.4606.81,,,2021-10-19 07:24:03,2021-10-19 07:24:03,0.392s,PASSED
+"click(findTestObject(""Register Voucher/span_SMA - Kelas 12 IPA""), STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-19 07:24:03,2021-10-19 07:24:04,0.528s,PASSED
+"click(findTestObject(""Register Voucher/button_Selesai""))",Chrome 94.0.4606.81,,,2021-10-19 07:24:04,2021-10-19 07:24:05,0.813s,PASSED
+delay(40),Chrome 94.0.4606.81,,,2021-10-19 07:24:05,2021-10-19 07:24:45,40.016s,PASSED
+"click(findTestObject(""Register Voucher/button_Verifikasi""))",Chrome 94.0.4606.81,,,2021-10-19 07:24:45,2021-10-19 07:24:45,0.367s,PASSED
+delay(20),Chrome 94.0.4606.81,,,2021-10-19 07:24:45,2021-10-19 07:25:05,20.004s,PASSED
+,,,,,,,
+Test Cases/User/Ubah Password Voucher/Positive Case/Pastikan User Dapat Mengubah Password ketika login dengn voucher,Chrome 94.0.4606.81,,,2021-10-19 07:25:05,2021-10-19 07:26:07,1m - 2.107s,PASSED
+"callTestCase(findTestCase(""User/Login/Positive Case/Pastikan User dapat melakukan login""), [""email"":""wawanfebrianto@yopmail.com"", ""password"":""132245678""], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-19 07:25:06,2021-10-19 07:25:19,13.056s,PASSED
+"click(findTestObject(""Ubah Password Voucher/Page_Pijar Belajar/button_Ubah Password""))",Chrome 94.0.4606.81,,,2021-10-19 07:25:19,2021-10-19 07:25:22,3.202s,PASSED
+"setText(findTestObject(""Ubah Password Voucher/Page_Pijar Belajar/input_Email_email""), ""wawanfebrianto@yopmail.com"")",Chrome 94.0.4606.81,,,2021-10-19 07:25:22,2021-10-19 07:25:23,1.195s,PASSED
+"click(findTestObject(""Ubah Password Voucher/Page_Pijar Belajar/button_Lanjutkan""))",Chrome 94.0.4606.81,,,2021-10-19 07:25:23,2021-10-19 07:25:24,0.594s,PASSED
+delay(40),Chrome 94.0.4606.81,,,2021-10-19 07:25:24,2021-10-19 07:26:04,40.003s,PASSED
+"click(findTestObject(""Ubah Password Voucher/Page_Pijar Belajar/button_Verifikasi""))",Chrome 94.0.4606.81,,,2021-10-19 07:26:04,2021-10-19 07:26:04,0.656s,PASSED
+"setText(findTestObject(""Ubah Password Voucher/Page_Pijar Belajar/input_Password_password""), ""12345678"")",Chrome 94.0.4606.81,,,2021-10-19 07:26:04,2021-10-19 07:26:05,1.017s,PASSED
+"setText(findTestObject(""Ubah Password Voucher/Page_Pijar Belajar/input_Konfirmasi Password_retypePassword""), ""12345678"")",Chrome 94.0.4606.81,,,2021-10-19 07:26:05,2021-10-19 07:26:06,0.878s,PASSED
+"click(findTestObject(""Ubah Password Voucher/Page_Pijar Belajar/button_Ubah Password_2""))",Chrome 94.0.4606.81,,,2021-10-19 07:26:06,2021-10-19 07:26:07,0.427s,PASSED
+"click(findTestObject(""Ubah Password Voucher/Page_Pijar Belajar/button_Ke Pengaturan Profil""))",Chrome 94.0.4606.81,,,2021-10-19 07:26:07,2021-10-19 07:26:07,0.736s,PASSED
