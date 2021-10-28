@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pastikan User dapat mengakses Paket Belajar dan Membeli paket belajar dengan emoney" time="30.407" tests="2" failures="0" errors="0">
+   <testsuite name="Pastikan User dapat mengakses Paket Belajar dan Membeli paket belajar dengan emoney" tests="2" failures="0" errors="0" time="30.407" skipped="0" timestamp="2021-10-27 14:53:12" hostname="ardiansyah - 202.3.218.138" id="Test Suites/User/Paket Belajar/Pastikan User dapat mengakses Paket Belajar dan Membeli paket belajar dengan emoney">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/ardiansyah/Work/Telkom/Pijar Belajar/Katalon/pijar-belajar/Reports/20211027_145248/User/Paket Belajar/Pastikan User dapat mengakses Paket Belajar dan Membeli paket belajar dengan emoney/20211027_145248"/>
+         <property name="logFiles" value="/home/ardiansyah/Work/Telkom/Pijar Belajar/Katalon/pijar-belajar/Reports/20211027_145248/User/Paket Belajar/Pastikan User dapat mengakses Paket Belajar dan Membeli paket belajar dengan emoney/20211027_145248/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ardiansyah - 202.3.218.138"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="202.3.218.138"/>
+         <property name="sessionId" value="5ace609aa8fc07c2e77121205e64d932"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login" time="17.068" classname="Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login" status="PASSED">
+         <system-out><![CDATA[2021-10-27 14:53:13 - [TEST_CASE][PASSED] - Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login: Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login
+
+2021-10-27 14:53:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2021-10-27 14:53:13 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Open Browser: Test Cases/CustomKeyword/Open Browser
+
+2021-10-27 14:53:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-27 14:53:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-27 14:53:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-27 14:53:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-27 14:53:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-27 14:53:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-27 14:53:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Open Browser' successfully
+
+2021-10-27 14:53:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CustomKeyword/Nevigate To Url"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CustomKeyword/Nevigate To Url' successfully
+
+2021-10-27 14:53:17 - [TEST_CASE][PASSED] - Test Cases/CustomKeyword/Nevigate To Url: Test Cases/CustomKeyword/Nevigate To Url
+
+2021-10-27 14:53:18 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'http://dev.pijarbelajar.id/' successfully
+
+2021-10-27 14:53:24 - [MESSAGE][PASSED] - Navigate to 'http://dev.pijarbelajar.id/' successfully
+
+2021-10-27 14:53:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CustomKeyword/Nevigate To Url' successfully
+
+2021-10-27 14:53:24 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar")): Object: 'Object Repository/Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar' is clicked on
+
+2021-10-27 14:53:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar' is clicked on
+
+2021-10-27 14:53:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login Email/input_Email_email"), email): Text 'sintadewi@yopmail.com' is set on object 'Object Repository/Login/Login Email/input_Email_email'
+
+2021-10-27 14:53:27 - [MESSAGE][PASSED] - Text 'sintadewi@yopmail.com' is set on object 'Object Repository/Login/Login Email/input_Email_email'
+
+2021-10-27 14:53:27 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login Email/input_Password_password"), password): Text '12345678' is set on object 'Object Repository/Login/Login Email/input_Password_password'
+
+2021-10-27 14:53:28 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Login/Login Email/input_Password_password'
+
+2021-10-27 14:53:28 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_eyes")): Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-27 14:53:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-27 14:53:28 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_eyes")): Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-27 14:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_eyes' is clicked on
+
+2021-10-27 14:53:29 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/checkbox_ingat")): Object: 'Object Repository/Login/Login Email/checkbox_ingat' is clicked on
+
+2021-10-27 14:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/checkbox_ingat' is clicked on
+
+2021-10-27 14:53:29 - [TEST_STEP][PASSED] - click(findTestObject("Login/Login Email/button_Masuk")): Object: 'Object Repository/Login/Login Email/button_Masuk' is clicked on
+
+2021-10-27 14:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Email/button_Masuk' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/Paket Belajar/Positive Case/Pastikan User dapat mengakses Paket Belajar dan membeli paket belajar dengan emonay" time="11.241" classname="Test Cases/User/Paket Belajar/Positive Case/Pastikan User dapat mengakses Paket Belajar dan membeli paket belajar dengan emonay" status="PASSED">
+         <system-out><![CDATA[2021-10-27 14:53:30 - [TEST_CASE][PASSED] - Test Cases/User/Paket Belajar/Positive Case/Pastikan User dapat mengakses Paket Belajar dan membeli paket belajar dengan emonay: Test Cases/User/Paket Belajar/Positive Case/Pastikan User dapat mengakses Paket Belajar dan membeli paket belajar dengan emonay
+
+2021-10-27 14:53:30 - [TEST_STEP][PASSED] - focus(findTestObject("Top Menu/button_Berlangganan Sekarang_hidden mdflex p-2 hoverbg-black-200 bg-black-200 flex items-center justify-center rounded-lg")): Object: 'Object Repository/Top Menu/button_Berlangganan Sekarang_hidden mdflex p-2 hoverbg-black-200 bg-black-200 flex items-center justify-center rounded-lg' is focused
+
+2021-10-27 14:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Menu/button_Berlangganan Sekarang_hidden mdflex p-2 hoverbg-black-200 bg-black-200 flex items-center justify-center rounded-lg' is focused
+
+2021-10-27 14:53:33 - [TEST_STEP][PASSED] - click(findTestObject("Paket Belajar/Page_Pijar Belajar/a_Paket Belajar")): Object: 'Object Repository/Paket Belajar/Page_Pijar Belajar/a_Paket Belajar' is clicked on
+
+2021-10-27 14:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Paket Belajar/Page_Pijar Belajar/a_Paket Belajar' is clicked on
+
+2021-10-27 14:53:34 - [TEST_STEP][PASSED] - click(findTestObject("Paket Belajar/Page_Pijar Belajar/button_Pilih Paket")): Object: 'Object Repository/Paket Belajar/Page_Pijar Belajar/button_Pilih Paket' is clicked on
+
+2021-10-27 14:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Paket Belajar/Page_Pijar Belajar/button_Pilih Paket' is clicked on
+
+2021-10-27 14:53:36 - [TEST_STEP][PASSED] - click(findTestObject("Paket Belajar/Page_Pijar Belajar/button_Tambah Paket")): Object: 'Object Repository/Paket Belajar/Page_Pijar Belajar/button_Tambah Paket' is clicked on
+
+2021-10-27 14:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Paket Belajar/Page_Pijar Belajar/button_Tambah Paket' is clicked on
+
+2021-10-27 14:53:36 - [TEST_STEP][PASSED] - click(findTestObject("Paket Belajar/Page_Pijar Belajar/div_LinkAja (Via Web)")): Object: 'Object Repository/Paket Belajar/Page_Pijar Belajar/div_LinkAja (Via Web)' is clicked on
+
+2021-10-27 14:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Paket Belajar/Page_Pijar Belajar/div_LinkAja (Via Web)' is clicked on
+
+2021-10-27 14:53:40 - [TEST_STEP][PASSED] - click(findTestObject("Paket Belajar/Page_Pijar Belajar/button_Bayar")): Object: 'Object Repository/Paket Belajar/Page_Pijar Belajar/button_Bayar' is clicked on
+
+2021-10-27 14:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Paket Belajar/Page_Pijar Belajar/button_Bayar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-27 14:53:12 - [TEST_SUITE][PASSED] - Pastikan User dapat mengakses Paket Belajar dan Membeli paket belajar dengan emoney: Test Cases/User/Paket Belajar/Positive Case/Pastikan User dapat mengakses Paket Belajar dan membeli paket belajar dengan emonay]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Pastikan User dapat mengakses Paket Belajar</name>
+   <name>Pastikan User dapat mengakses Paket Belajar dan membeli paket belajar dengan emonay</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>77b9a12c-11d7-4251-8044-7e0668415a53</testCaseGuid>

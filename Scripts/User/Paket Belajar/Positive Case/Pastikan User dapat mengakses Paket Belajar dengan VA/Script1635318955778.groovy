@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Paket Belajar/Page_Pijar Belajar/button_Pilih Paket'
 
 WebUI.click(findTestObject('Paket Belajar/Page_Pijar Belajar/button_Tambah Paket'))
 
-WebUI.click(findTestObject('Paket Belajar/Page_Pijar Belajar/LinkAja'))
+WebUI.click(findTestObject('Paket Belajar/Page_Pijar Belajar/div_Mandiri'))
 
 WebUI.click(findTestObject('Paket Belajar/Page_Pijar Belajar/button_Bayar'))
 

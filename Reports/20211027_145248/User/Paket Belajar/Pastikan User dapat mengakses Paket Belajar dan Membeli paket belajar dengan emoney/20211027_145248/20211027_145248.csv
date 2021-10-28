@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pastikan User dapat mengakses Paket Belajar dan Membeli paket belajar dengan emoney,Chrome 94.0.4606.81,,,2021-10-27 14:53:12,2021-10-27 14:53:41,29.062s,PASSED
+,,,,,,,
+Test Cases/User/Login/Positive Case/Pastikan User dapat melakukan login,Chrome 94.0.4606.81,,,2021-10-27 14:53:13,2021-10-27 14:53:30,17.068s,PASSED
+"callTestCase(findTestCase(""CustomKeyword/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-27 14:53:13,2021-10-27 14:53:17,3.754s,PASSED
+"callTestCase(findTestCase(""CustomKeyword/Nevigate To Url""), [:], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-27 14:53:17,2021-10-27 14:53:24,7.185s,PASSED
+"click(findTestObject(""Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar""))",Chrome 94.0.4606.81,,,2021-10-27 14:53:24,2021-10-27 14:53:25,0.645s,PASSED
+"setText(findTestObject(""Login/Login Email/input_Email_email""), email)",Chrome 94.0.4606.81,,,2021-10-27 14:53:25,2021-10-27 14:53:27,1.970s,PASSED
+"setText(findTestObject(""Login/Login Email/input_Password_password""), password)",Chrome 94.0.4606.81,,,2021-10-27 14:53:27,2021-10-27 14:53:28,0.777s,PASSED
+"click(findTestObject(""Login/Login Email/button_eyes""))",Chrome 94.0.4606.81,,,2021-10-27 14:53:28,2021-10-27 14:53:28,0.431s,PASSED
+"click(findTestObject(""Login/Login Email/button_eyes""))",Chrome 94.0.4606.81,,,2021-10-27 14:53:28,2021-10-27 14:53:29,0.605s,PASSED
+"click(findTestObject(""Login/Login Email/checkbox_ingat""))",Chrome 94.0.4606.81,,,2021-10-27 14:53:29,2021-10-27 14:53:29,0.600s,PASSED
+"click(findTestObject(""Login/Login Email/button_Masuk""))",Chrome 94.0.4606.81,,,2021-10-27 14:53:29,2021-10-27 14:53:30,0.434s,PASSED
+,,,,,,,
+Test Cases/User/Paket Belajar/Positive Case/Pastikan User dapat mengakses Paket Belajar dan membeli paket belajar dengan emonay,Chrome 94.0.4606.81,,,2021-10-27 14:53:30,2021-10-27 14:53:41,11.241s,PASSED
+"focus(findTestObject(""Top Menu/button_Berlangganan Sekarang_hidden mdflex p-2 hoverbg-black-200 bg-black-200 flex items-center justify-center rounded-lg""))",Chrome 94.0.4606.81,,,2021-10-27 14:53:30,2021-10-27 14:53:33,3.268s,PASSED
+"click(findTestObject(""Paket Belajar/Page_Pijar Belajar/a_Paket Belajar""))",Chrome 94.0.4606.81,,,2021-10-27 14:53:33,2021-10-27 14:53:34,1.005s,PASSED
+"click(findTestObject(""Paket Belajar/Page_Pijar Belajar/button_Pilih Paket""))",Chrome 94.0.4606.81,,,2021-10-27 14:53:34,2021-10-27 14:53:36,1.297s,PASSED
+"click(findTestObject(""Paket Belajar/Page_Pijar Belajar/button_Tambah Paket""))",Chrome 94.0.4606.81,,,2021-10-27 14:53:36,2021-10-27 14:53:36,0.481s,PASSED
+"click(findTestObject(""Paket Belajar/Page_Pijar Belajar/div_LinkAja (Via Web)""))",Chrome 94.0.4606.81,,,2021-10-27 14:53:36,2021-10-27 14:53:40,4.036s,PASSED
+"click(findTestObject(""Paket Belajar/Page_Pijar Belajar/button_Bayar""))",Chrome 94.0.4606.81,,,2021-10-27 14:53:40,2021-10-27 14:53:41,0.600s,PASSED
