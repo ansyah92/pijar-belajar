@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Mulai Latihan</name>
+   <tag></tag>
+   <elementGuidId>92a1492b-c01d-491d-a8ce-e132e35569b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[10]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-primary hover:bg-blue-bg_border w-full tracking-wider rounded-lg mt-3 font-semibold text-xs md:text-sm  h-8 md:h-9 px-1 flex items-center justify-center rounded-lg border text-primary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mulai Latihan</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;flex flex-col min-h-screen&quot;]/main[@class=&quot;pt-24 flex-1&quot;]/div[1]/div[@class=&quot;lg:max-w-screen-lg mx-auto mt-6 pb-12&quot;]/div[@class=&quot;flex flex-col md:flex-row items-start&quot;]/div[@class=&quot;px-2 flex-1 self-stretch&quot;]/div[1]/div[@class=&quot;justify-center pb-24&quot;]/div[@class=&quot;flex justify-center w-full my-8&quot;]/div[@class=&quot;flex justify-between flex-col md:flex-row w-full md:max-w-screen-md lg:max-w-screen-lg&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;w-full px-2&quot;]/div[@class=&quot;grid md:grid-cols-3 gap-4 sm:grid-cols-2&quot;]/div[2]/div[@class=&quot;hover:shadow-3xl font-semibold h-200px max-w-255px w-full border border-black-300 rounded-2xl md:rounded-3xl mx-auto&quot;]/div[@class=&quot;p-1 md:p-5 sm:p-5&quot;]/button[@class=&quot;text-primary hover:bg-blue-bg_border w-full tracking-wider rounded-lg mt-3 font-semibold text-xs md:text-sm  h-8 md:h-9 px-1 flex items-center justify-center rounded-lg border text-primary&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[10]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div[2]/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='premium'])[2]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai Latihan'])[1]/following::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='free'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai Latihan'])[3]/preceding::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/button</value>
+   </webElementXpaths>
+</WebElementEntity>
