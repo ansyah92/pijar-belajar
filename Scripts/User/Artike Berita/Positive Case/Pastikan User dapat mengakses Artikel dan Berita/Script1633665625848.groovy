@@ -20,7 +20,9 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('User/Login/Positive Case/Pastikan User dapat melakukan login'), [('email') : 'sintadewi@yopmail.com'
         , ('password') : '12345678'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Artikel dan Berita/h3_Artikel  Berita'), 1)
+WebUI.scrollToElement(findTestObject('Artikel dan Berita/Page_Pijar Belajar/h3_Artikel  Berita'), 1)
+
+WebUI.verifyElementText(findTestObject('Artikel dan Berita/Page_Pijar Belajar/h3_Artikel  Berita'), 'Artikel & Berita')
 
 WebUI.click(findTestObject('Artikel dan Berita/svg_next'))
 

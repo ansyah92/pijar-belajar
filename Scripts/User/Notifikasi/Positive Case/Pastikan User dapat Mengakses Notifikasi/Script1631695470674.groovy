@@ -28,5 +28,5 @@ WebUI.click(findTestObject('Notifikasi/a_Semua Transaksi'))
 
 WebUI.click(findTestObject('Notifikasi/a_1Menunggu'))
 
-WebUI.click(findTestObject('Notifikasi/p_Menunggu Pembayaran Pijar Belajar Akses 30 Hari'))
+WebUI.click(findTestObject('Notifikasi/Page_Pijar Belajar/footer_Lihat Semua'))
 

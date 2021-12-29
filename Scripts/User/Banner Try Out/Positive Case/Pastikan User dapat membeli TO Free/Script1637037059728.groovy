@@ -22,7 +22,7 @@ WebUI.callTestCase(findTestCase('User/Login/Positive Case/Pastikan User dapat me
 
 WebUI.scrollToElement(findTestObject('Try Out/Page_Pijar Belajar/h3_Latihan dan Simulasi Ujian'), 1)
 
-WebUI.click(findTestObject('Try Out/Page_Pijar Belajar/div_Try Out Event'))
+WebUI.click(findTestObject('Try Out/Beli TO/Page_Pijar Belajar/div_Try Out Event'))
 
 WebUI.click(findTestObject('Try Out/Page_Pijar Belajar/a_Try Out Saya'))
 

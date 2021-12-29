@@ -17,17 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CustomKeyword/Nevigate To Url'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.scrollToElement(findTestObject('Landing Page/h1_Pijar Belajar'), 2)
+
+WebUI.verifyElementText(findTestObject('Landing Page/h1_Pijar Belajar'), 'Pijar Belajar')
 
 WebUI.scrollToElement(findTestObject('Landing Page/h2_Alasan kamu menggunakan  Pijar Belajar'), 2)
 
 WebUI.scrollToElement(findTestObject('Landing Page/h2_Our Feature'), 2)
+
+WebUI.verifyElementText(findTestObject('Landing Page/h2_Our Feature'), 'Our Feature')
 
 WebUI.click(findTestObject('Landing Page/button_Our Feature_swiper-button-next'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Landing Page/button_Our Feature_swiper-button-prev'))
 
 WebUI.scrollToElement(findTestObject('Landing Page/h2_Get connect with us'), 0)
+
+WebUI.verifyElementText(findTestObject('Landing Page/h2_Get connect with us'), 'Get connect with us')
 
 WebUI.scrollToElement(findTestObject('Landing Page/h3_Download Pijar Belajar'), 0)
 

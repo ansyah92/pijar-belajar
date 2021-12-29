@@ -35,3 +35,5 @@ WebUI.click(findTestObject('Login/Login Email/checkbox_ingat'))
 
 WebUI.click(findTestObject('Login/Login Email/button_Masuk'))
 
+WebUI.click(findTestObject('Banner Popup/button_close_banner_popup'))
+

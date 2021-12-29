@@ -20,13 +20,17 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('User/Login/Positive Case/Pastikan User dapat melakukan login'), [('email') : 'sintadewi@yopmail.com'
         , ('password') : '12345678'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('UNBK dan UTBK/div_Simulasi UNBK'))
+WebUI.scrollToElement(findTestObject('UNBK dan UTBK/Page_Pijar Belajar/h3_Latihan dan Simulasi Ujian'), 1)
+
+WebUI.click(findTestObject('UNBK dan UTBK/Page_Pijar Belajar/div_Simulasi UNBK'))
 
 WebUI.click(findTestObject('UNBK dan UTBK/p_Matematika Wajib'))
 
 WebUI.click(findTestObject('UNBK dan UTBK/a_Simulasi UNBK'))
 
-WebUI.click(findTestObject('UNBK dan UTBK/div_Simulasi UTBK'))
+WebUI.scrollToElement(findTestObject('UNBK dan UTBK/Page_Pijar Belajar/h3_Latihan dan Simulasi Ujian'), 1)
+
+WebUI.click(findTestObject('UNBK dan UTBK/Page_Pijar Belajar/div_Simulasi UTBK'))
 
 WebUI.click(findTestObject('UNBK dan UTBK/p_Bahasa Indonesia'))
 

@@ -24,11 +24,6 @@ WebUI.focus(findTestObject('Top Menu/button_Berlangganan Sekarang_hidden mdflex 
 
 WebUI.click(findTestObject('Top Menu/span_Pengaturan Profil'))
 
-WebUI.click(findTestObject('Pengaturan Profil/button_Pilih Foto'))
-
-WebUI.uploadFile(findTestObject('Pengaturan Profil/Page_Pijar Belajar/button_Ubah Password_absolute ml-12 my-16 w-7 h-7 mb-2 inline-flex items-center justify-center rounded-full bg-white flex-shrink-0 shadow-md'), 
-    file)
-
 WebUI.click(findTestObject('Pengaturan Profil/button_Ubah Foto'))
 
 WebUI.click(findTestObject('Pengaturan Profil/button_Hapus'))

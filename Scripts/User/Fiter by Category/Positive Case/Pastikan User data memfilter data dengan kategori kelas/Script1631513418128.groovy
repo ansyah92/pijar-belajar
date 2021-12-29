@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Top Menu/button_kategori'))
 
 WebUI.click(findTestObject('Top Menu/a_SD - Kelas 5'))
 
-WebUI.click(findTestObject('Mulai Belajar/p_Buku Diknas'))
+WebUI.click(findTestObject('Mulai Belajar/div_Buku Diknas'))
 
 WebUI.click(findTestObject('Mulai Belajar/button_Video Pembahasan Bank Soal'))
 

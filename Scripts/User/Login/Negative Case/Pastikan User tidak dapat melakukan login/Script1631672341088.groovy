@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('CustomKeyword/Nevigate To Url'), [:], FailureHa
 
 WebUI.click(findTestObject('Login/Login Email/Page_Pijar Belajar/button_Mulai Belajar'))
 
-WebUI.setText(findTestObject('Login/Login Email/input_Email_email'), sintadewi@yopmail.com)
+WebUI.setText(findTestObject('Login/Login Email/input_Email_email'), email)
 
 WebUI.setText(findTestObject('Login/Login Email/input_Password_password'), password)
 

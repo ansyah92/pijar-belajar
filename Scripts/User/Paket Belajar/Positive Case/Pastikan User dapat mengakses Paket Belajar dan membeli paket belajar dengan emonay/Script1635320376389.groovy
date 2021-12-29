@@ -17,6 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('User/Login/Positive Case/Pastikan User dapat melakukan login'), [('email') : 'sintadewi@yopmail.com'
+        , ('password') : '12345678'], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.focus(findTestObject('Top Menu/button_Berlangganan Sekarang_hidden mdflex p-2 hoverbg-black-200 bg-black-200 flex items-center justify-center rounded-lg'))
 
 WebUI.click(findTestObject('Paket Belajar/Page_Pijar Belajar/a_Paket Belajar'))

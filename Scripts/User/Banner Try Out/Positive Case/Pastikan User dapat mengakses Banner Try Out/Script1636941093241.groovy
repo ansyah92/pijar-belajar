@@ -20,15 +20,15 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('User/Login/Positive Case/Pastikan User dapat melakukan login'), [('email') : 'sintadewi@yopmail.com'
         , ('password') : '12345678'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Try Out/Page_Pijar Belajar/h3_Latihan dan Simulasi Ujian'), 0)
+WebUI.scrollToElement(findTestObject('Try Out/Page_Pijar Belajar/h3_Latihan dan Simulasi Ujian'), 1)
 
-WebUI.click(findTestObject('Try Out/Page_Pijar Belajar/div_Try Out Event'))
+WebUI.click(findTestObject('Try Out/Beli TO/Page_Pijar Belajar/div_Try Out Event'))
 
 WebUI.click(findTestObject('Try Out/Page_Pijar Belajar/a_Try Out Saya'))
 
 WebUI.click(findTestObject('Try Out/Page_Pijar Belajar/a_Try Out Terdekat'))
 
-WebUI.scrollToElement(findTestObject('Try Out/Page_Pijar Belajar Tryout/p_Tryout 15'), 0)
+WebUI.scrollToElement(findTestObject('Try Out/Page_Pijar Belajar Tryout/p_Tryout 15'), 1)
 
 WebUI.click(findTestObject('Try Out/Page_Pijar Belajar Tryout/svg_next'))
 

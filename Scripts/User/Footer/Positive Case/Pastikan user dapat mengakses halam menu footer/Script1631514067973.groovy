@@ -17,21 +17,84 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.scrollToElement(findTestObject('Footer/p_Didukung oleh'), 1)
+WebUI.callTestCase(findTestCase('User/Login/Positive Case/Pastikan User dapat melakukan login'), [('email') : 'sintadewi@yopmail.com'
+        , ('password') : '12345678'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Footer/a_Tentang Pijar Belajar'))
+WebUI.scrollToElement(findTestObject('Footer New/span_Try Out Event'), 1)
 
-WebUI.click(findTestObject('Footer/a_FAQ'))
+WebUI.verifyElementText(findTestObject('Footer New/span_Try Out Event'), 'Try Out Event')
 
-WebUI.click(findTestObject('Footer/div_Apa itu Pijar Belajar'))
+WebUI.scrollToElement(findTestObject('Footer New/h3_Latihan dan Simulasi Ujian'), 0)
 
-WebUI.click(findTestObject('Footer/a_Syarat dan Ketentuan'))
+WebUI.verifyElementText(findTestObject('Footer New/h3_Latihan dan Simulasi Ujian'), 'Latihan dan Simulasi Ujian')
 
-WebUI.click(findTestObject('Footer/div_Informasi Pribadi'))
+WebUI.scrollToElement(findTestObject('Footer New/h3_Promo Belajar Untukmu'), 0)
 
-WebUI.click(findTestObject('Footer/a_Kebijakan Privasi'))
+WebUI.verifyElementText(findTestObject('Footer New/h3_Promo Belajar Untukmu'), 'Promo Belajar Untukmu!')
 
-WebUI.click(findTestObject('Footer/div_Pengumpulan dan Penggunaan Informasi'))
+WebUI.scrollToElement(findTestObject('Footer New/p_Segera tersedia di'), 0)
 
-WebUI.click(findTestObject('Footer/a_Hubungi Kami'))
+WebUI.verifyElementText(findTestObject('Footer New/p_Segera tersedia di'), 'Segera tersedia di')
+
+WebUI.click(findTestObject('Footer New/a_Tentang Pijar Belajar'))
+
+WebUI.verifyElementText(findTestObject('Footer New/h1_Pusat Bantuan'), 'Pusat Bantuan')
+
+WebUI.verifyElementText(findTestObject('Footer New/h3_Tentang Kami'), 'Tentang Kami')
+
+WebUI.click(findTestObject('Footer New/img_pijar_belajar_back_homepage'))
+
+WebUI.click(findTestObject('Footer New/a_Hubungi Kami'))
+
+WebUI.verifyElementText(findTestObject('Footer New/h2_Kontak Pijar Belajar'), 'Kontak Pijar Belajar')
+
+WebUI.click(findTestObject('Footer New/img_pijar_belajar_back_homepage'))
+
+WebUI.click(findTestObject('Footer New/a_FAQ'))
+
+WebUI.click(findTestObject('Footer New/img_pijar_belajar_back_homepage'))
+
+WebUI.click(findTestObject('Footer New/a_Syarat dan Ketentuan'))
+
+WebUI.click(findTestObject('Footer New/img_pijar_belajar_back_homepage'))
+
+WebUI.click(findTestObject('Footer New/a_Kebijakan Privasi'))
+
+WebUI.click(findTestObject('Footer New/img_pijar_belajar_back_homepage'))
+
+WebUI.click(findTestObject('Footer New/a_Tentang Pijar Belajar'))
+
+WebUI.verifyElementText(findTestObject('Footer New/h1_Pusat Bantuan'), 'Pusat Bantuan')
+
+WebUI.verifyElementText(findTestObject('Footer New/h3_Tentang Kami'), 'Tentang Kami')
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/a_FAQ_2'))
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/div_Apa itu Pijar Belajar'))
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/div_Siapa Yang Menggunakan Pijar Belajar'))
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/div_Mengapa harus menggunakan Pijar Belajar'))
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/div_Apa saja layanan dari Pijar Pijar Belajar'))
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/div_Kemana saya bisa menghubungi layanan pelanggan Pijar Belajar'))
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/a_Syarat dan Ketentuan_2'))
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/div_Nama Pengguna'))
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/div_Informasi Pribadi'))
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/div_Penggunaan dan Pernyataan Kepada Pihak KeTiga'))
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/div_Layanan Penggunaan Pijar Belajar'))
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/a_Kebijakan Privasi_2'))
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/div_Rahasia Pribadi'))
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/div_Pengumpulan dan Penggunaan Informasi'))
+
+WebUI.click(findTestObject('Footer New/Page_Pijar Belajar/a_Hubungi Kami_2'))
 
